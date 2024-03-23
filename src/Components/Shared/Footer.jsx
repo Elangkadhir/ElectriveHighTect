@@ -14,9 +14,9 @@ function Footer() {
             <input
               type="text"
               placeholder="Your email address"
-              className="h-11 px-2 w-[75%] outline-none"
+              className="h-11 px-2 w-[75%] outline-none border-blue-400 border "
             />
-            <button className="h-11 bg-[#f3283d] rounded-e-md text-white px-4">
+            <button className="h-11 bg-blue-400 font-bold text-black rounded-e-md  px-4">
               Subscribe
             </button>
           </div>
@@ -69,15 +69,15 @@ function Footer() {
           <span>Fashion</span> | <span>Clothes</span>| <span>Jeans</span>|
           <span>Trouser</span> |<span>T-Shirts</span> |<span>Watch</span>|
           <span>Table</span> |<span>Lamp</span> |<span>Jewellery</span>|
-          <span>Ethnic</span>|
-          <sapn>Wear</sapn>| <span>Lingerie</span>|
+          <span>Ethnic</span>|<sapn>Wear</sapn>| <span>Lingerie</span>|
           <span>Dresses And Skirts</span>| <span>Hair Care</span>|
-          <span>Skin Care</span>| <span>Hair Dryer</span>| <span>Hand Bag</span>|
-          <span>Clutches</span>| <span>Casual Shoes</span>|
-          <span>Beauty And Grooming </span>|
-          <span>Sunglasses </span>
+          <span>Skin Care</span>| <span>Hair Dryer</span>| <span>Hand Bag</span>
+          |<span>Clutches</span>| <span>Casual Shoes</span>|
+          <span>Beauty And Grooming </span>|<span>Sunglasses </span>
         </div>
-        <div className="text-center mt-10">© 2024 - Ecommerce software by PrestaShop™</div>
+        <div className="text-center mt-10">
+          © 2024 - Ecommerce software by PrestaShop™
+        </div>
       </div>
     </div>
   );

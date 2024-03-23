@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Shared/Header";
 import Footer from "../Shared/Footer";
+import SideBar from "../Shared/SideBar";
 
 function Layouts({ children }) {
   return (
@@ -8,8 +9,12 @@ function Layouts({ children }) {
       <div>
         <Header />
       </div>
-      <div>{children}</div>
-      <div><Footer /></div>
+      <div>
+        <SideBar children={children} />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

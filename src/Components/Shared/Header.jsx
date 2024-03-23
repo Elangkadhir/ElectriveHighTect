@@ -35,7 +35,7 @@ function Header() {
         <div className="w-1/4">
           <img src={HeaderImage} alt="headerImage" />
         </div>
-        <div className="flex border w-3/5 border-[#fc0] h-11  rounded-full pl-4">
+        <div className="flex border w-3/5 border-blue-400 h-11  rounded-full pl-4">
           <select id="categories" className="w-1/5">
             <option value="all" selected>
               All Categories
@@ -54,7 +54,7 @@ function Header() {
             placeholder="search here..."
             className="outline-none px-2 w-3/5"
           />
-          <button className="bg-[#fc0] rounded-e-full w-1/5  p-2">
+          <button className="bg-blue-400 rounded-e-full w-1/5  p-2">
             Search
           </button>
         </div>
@@ -65,16 +65,16 @@ function Header() {
           <div>$0.00</div>
         </div>
       </div>
-      <div className="bg-[#f3283d] w-full">
+      <div className="bg-blue-400 py-4 w-full">
         <div className="py-2 mx-8 font-semibold text-white flex justify-between items-center">
-          <span className="bg-[#fc0] p-2 px-8 rounded-md text-black">ALL CATEGORIES</span>
-          <sapn>BESTSELLER </sapn>
-          <span>LATEST</span>
-          <span>SPECIAL</span>
-          <span>CONTACT US </span>
-          <span>SITEMAP</span>
-          <span>STORES</span>
-          <sapn className="bg-[#2d2d2d] p-2 px-8 rounded-md">SPECIAL OFFERS!</sapn>
+          <span className="bg-[#fc0] p-2 cursor-pointer px-8 rounded-md text-black">ALL CATEGORIES</span>
+          <sapn className="cursor-pointer">BESTSELLER </sapn>
+          <span className="cursor-pointer">LATEST</span>
+          <span className="cursor-pointer">SPECIAL</span>
+          <span className="cursor-pointer">CONTACT US </span>
+          <span className="cursor-pointer">SITEMAP</span>
+          <span className="cursor-pointer">STORES</span>
+          <sapn className="bg-[#2d2d2d] p-2 px-8 rounded-md cursor-pointer">SPECIAL OFFERS!</sapn>
         </div>
       </div>
     </div>
